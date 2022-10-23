@@ -6,7 +6,7 @@
 
 typedef struct books
 {
-    char* id,*name;
+    char *id,*name;
     int num,n;
     char** borrower;
     struct books *next;
